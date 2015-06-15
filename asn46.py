@@ -7,6 +7,7 @@ def computepay(h,r):
 	else:
 	  return (40*r) + ((h-40) * 1.5 * r)
 
+#get user input
 
 hrs = raw_input("Enter Hours:")
 rate = raw_input("Enter Rate:")
